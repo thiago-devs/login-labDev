@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="main-login">
+      <div class="login">
+        <h1>Login</h1>
+        <div class="textefield">
+          <input type="text" id="email" name="email" placeholder="Email" />
+        </div>
+        <div class="textefield">
+          <input type="password" id="senha" name="senha" placeholder="Senha" />
+        </div>
+        <span id="messageError"></span>
+        <button onclick="login()" class="btn-login">Entrar</button>
+      </div>
+      <div class="right-login">
+        <img
+          src="./img/img_login.svg"
+          class="img-login"
+          alt="Pessoa abrindo uma porta"
+        />
+      </div>
+    </div>
+  </body>
+
+  <script src="./js/script.js"></script>
+</html>
