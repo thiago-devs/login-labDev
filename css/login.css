@@ -75,6 +75,12 @@ body {
     color: #eb0119;
 }
 
+#recover {
+    color: #FFFFFF;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
 @media (max-width: 480px) {
     
     .main-login{
