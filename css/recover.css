@@ -17,18 +17,25 @@ body {
 }
 
 .recover-container {
+    width: 40vw;
+    height: 60vh;
     background-color: #161B22;
     border-radius: 15px;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .recover-container > h1 {
     color: #FF7417;
     margin: 10px 0px;
+}
+
+.recover-container > p {
+    text-align: center;
+    font-size: 1.2em;
 }
 
 .recover-container > input {
@@ -59,3 +66,38 @@ body {
     text-decoration-color: #FF7417;
 }
 
+@media (max-width: 480px) {
+    .recover-container {
+        height: 80vh;
+        width: 90vw;
+        justify-content: space-evenly;
+    } 
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .recover-container > input {
+        width: 85%;  
+    }
+
+    .btn-recover {
+        width: 50%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .recover-container {
+        height: 85vh;
+        width: 65vw;
+        justify-content: space-evenly;
+    } 
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+}
